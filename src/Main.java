@@ -4,13 +4,10 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int[][] array = new int[10][10];
-        for (int i = 0; i < array.length; i++){
-            for(int j = 0, j < array[i].length; j ++){
+        int[][] array = new int{ {1,0,0,0},{1,1,0,0},{1,1,1,0},{1,1,1,1} };
+
                 System.out.println(Arrays.deepToString(array));
 
-            }
-        }
 
 
 
